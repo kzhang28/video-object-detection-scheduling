@@ -1,0 +1,1 @@
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/basic-tf-obj-detection/models/research/object_detection
