@@ -1,0 +1,630 @@
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00062000 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00062001 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00086000 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00147000 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00181009 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00184000 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00184001 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00184002 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00184003 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00184004 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00184005 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00184006 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00229000 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00229001 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00240001 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00240012 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293000 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293001 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293002 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293003 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293004 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293005 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293006 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293007 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302000 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302001 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302002 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302003 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302004 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302005 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302006 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302007 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302008 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302009 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302010 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302011 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302012 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302013 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302014 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302015 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302016 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302017 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302018 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302019 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302020 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302021 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302022 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302023 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302024 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302025 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302026 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302027 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302028 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302029 6
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00016000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00016001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00016002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00016003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00016004 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00016005 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00016006 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00016007 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00016008 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00016009 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00016010 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00016011 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00016012 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00018001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00018002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00018003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00025005 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00025006 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00025035 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00040000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00040001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00040002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00040003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00040005 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00040006 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00040013 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00040015 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00040016 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00040019 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00040025 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00040027 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047004 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047005 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047006 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047007 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047008 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047009 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047010 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047011 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047012 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047013 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047014 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047015 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047016 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047017 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047018 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047019 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047020 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047021 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047022 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047023 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00047024 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00049000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00053004 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00053007 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00053008 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00053009 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00053012 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00071010 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00071012 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00071013 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00071015 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00071017 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00071019 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073004 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073005 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073006 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073007 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073008 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073009 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073010 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073011 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073012 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073013 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073014 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073015 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073016 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073017 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073018 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073019 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073020 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073021 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073022 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073023 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073024 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073025 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073026 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073027 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073028 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073029 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073030 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073031 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073032 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073033 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073034 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073035 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073036 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073037 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00073038 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092004 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092005 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092006 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092007 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092008 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092009 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092010 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092011 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092012 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092013 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092014 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092015 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092016 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092017 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092018 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092019 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092020 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092021 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092022 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092023 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092024 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092025 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092026 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092027 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092028 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092029 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092030 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092031 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092032 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092033 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092034 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092035 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092036 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092037 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092038 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092039 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092040 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092041 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00092042 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124004 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124005 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124006 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124007 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124008 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124009 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124010 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124011 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124012 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00124013 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0000/ILSVRC2015_train_00132000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00149004 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00149005 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00164000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00164001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00166001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00166002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00176000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00176001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00176002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00176003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00176004 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00176005 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00176006 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00176007 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00176008 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00180000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00181005 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00181007 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00181009 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00184001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00184002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00184003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00184004 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00184005 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00184006 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00196000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00207002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00210000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00210001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00225000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00225001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00229000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00229001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00232003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00240012 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00240014 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00240015 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00250007 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00250015 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00287000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00287001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00287003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00290011 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293004 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293005 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293006 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00293007 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301000 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301004 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301005 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301006 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301007 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301008 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301009 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301010 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301011 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301012 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301013 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301014 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301015 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301016 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301017 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301018 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301019 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301020 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301021 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301022 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00301023 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302001 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302002 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302003 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302007 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302008 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302009 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302010 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302012 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302014 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302015 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302016 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302019 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302020 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302021 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302022 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302023 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302025 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302026 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302027 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00302028 7
+
+/home/kuo/Documents/research_experiment/edge-dnn-serving-video-analytics/docker-image-factory/obj-detection-tensorflow/ILSVRC2015-image/Data/VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00308007 7
+
