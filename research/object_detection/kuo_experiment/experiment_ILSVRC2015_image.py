@@ -300,17 +300,20 @@ class Dataset_Management_ILSVRC:
                 for line in f_read:
                     line_split_arr = line.split()
                     if line_split_arr[1] in cat_list:
-                        fd.write(line+'\n')
-
-
-
-
-
-
-
-
-
-
+                        fd.write(line)
+    def count_num_frames(self, snippets_file):
+        '''
+        counting the num of frames for all the snippets in snippets_file
+        :param cat_lst:
+        :return:
+        '''
+        with open(snippets_file) as fd:
+            sum =0
+            for line in fd:
+                path = line.strip().split()[0]
+                sum+= len(os.listdir(path))
+        print('Total Number of frames: {}'.format(sum))
+        return sum
 
 
 
