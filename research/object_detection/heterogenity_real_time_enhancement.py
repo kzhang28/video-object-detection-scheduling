@@ -22,8 +22,20 @@ import json
 import re
 import logging
 from kuo_experiment.accuracy_measurement import Accuracy_Measurement
-from kuo_experiment import config
+import importlib
 import psutil
+import argparse
+#====================================================================================================
+# Command line args parse
+parser = argparse.ArgumentParser()
+parser.add_argument('-config_file',nargs=1,
+                    metavar=('Config file to use by this script (w/o .py)'),help="Specify config file")
+args = parser.parse_args()
+if not args.config_file:
+  print('[Error:] Must Specify Config File')
+  exit()
+config_file_woExtension=args.config_file[0].replace('.py','') # remove '.py'
+config = importlib.import_module('kuo_experiment.{}'.format(config_file_woExtension))
 #====================================================================================================
 logger=logging.getLogger(__name__)
 if config.LOGGING['handler']=='file':
@@ -190,7 +202,7 @@ def inference_main():
 
 if __name__=="__main__":
     # output config.py content to log file
-    with open('./kuo_experiment/config.py') as f:
+    with open('./kuo_experiment/{}'.format(args.config_file[0])) as f:
       config_content = f.read()
     logger.info(config_content)
     # begin object detection task
