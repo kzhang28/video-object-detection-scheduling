@@ -5,6 +5,7 @@ import json
 import xml.etree.ElementTree as ET
 from collections import namedtuple
 from collections import defaultdict
+from collections import OrderedDict
 from accuracy_measurement import Accuracy_Measurement
 import numpy as np
 import ILSVRC_coco_map
@@ -231,6 +232,8 @@ class Dataset_Management_ILSVRC:
         self.dataset_dict = {} #{ category:{videoID:[snippets]}}
         self.num_video_in_cat_dict = {} # {category: # of videos}
         self.num_snippets_in_video = {} # {category: {videoID: # of snippet}}
+        # MUST MAKE SURE THAT EACH INSTANCE OF THIS OBJECT ONLY CALLS THE BUILD FUNCTION ONCE
+        self.build_global_dataset_dict()
     def build_global_dataset_dict(self):
         with open(self.all_snippet_file) as fd:
             for line in fd:
@@ -238,18 +241,21 @@ class Dataset_Management_ILSVRC:
                 snippet = line[0]
                 category = line[1]
                 if category not in self.dataset_dict:
-                    self.dataset_dict[category]=defaultdict(list)
+                    self.dataset_dict[category]=OrderedDict()
                 # get the video path component
-                snippet_path_component_shared=snippet.replace(self.dataset_training_root_path+'/','',1)
+                snippet_path_component_shared=snippet.replace(
+                    self.dataset_training_root_path+'/','',1)
                 video_id = snippet_path_component_shared[:-3]
                 snippet_id_of_single_video = snippet_path_component_shared[-3:]
+                if video_id not in self.dataset_dict[category]:
+                    self.dataset_dict[category][video_id]=[]
                 self.dataset_dict[category][video_id].append(snippet_id_of_single_video)
         print('[INFO:] Global Dataset Dict Builded')
+        #print(self.dataset_dict['9']['VID/train/ILSVRC2015_VID_train_0001/ILSVRC2015_train_00171'])
+        #print(list(self.dataset_dict['9'].keys()))
     def report_statistics(self, output_file_num_snippets_each_video='num_snippets_each_video.txt',
                           output_file_num_video_each_cat='num_video_each_category.txt'):
         # if global dataset is not built, build it
-        if not self.dataset_dict:
-            self.build_global_dataset_dict()
         for cat,videos_dict in self.dataset_dict.items():
             self.num_video_in_cat_dict[cat]=len(videos_dict.keys())
         self.num_snippets_in_video = copy.deepcopy(self.dataset_dict)
@@ -276,9 +282,10 @@ class Dataset_Management_ILSVRC:
         count=0
         with open(output_file_name,'w') as fd:
             cat_dict = self.dataset_dict[category]
-            for video,snippets in cat_dict:
+            for video,snippets in cat_dict.items():
                 for snippet in snippets:
-                    fd.write(os.path.join(self.dataset_training_root_path,video,snippet)+'\n')
+                    fd.write(
+                        os.path.join(self.dataset_training_root_path,video+snippet)+'\n')
                 count+=1
                 if count == num_video:
                     break
@@ -315,8 +322,6 @@ class Dataset_Management_ILSVRC:
         print('Total Number of frames: {}'.format(sum))
         return sum
 
-
-
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-sel',nargs=3,metavar=('Category_file_path','category_pointer_file_dir',
@@ -327,7 +332,7 @@ if __name__=='__main__':
                         help='Compute single frame accuracy')
     parser.add_argument('-ILSVRC_EVA',action='store_true',
                         help='Evaluate detection results on ILSVRC dataset')
-    parser.add_argument('-report_dataset_stat',nargs=2,metavar=('all_snippets_file', 'dataset_root')
+    parser.add_argument('-dataset_management',nargs=2,metavar=('all_snippets_file', 'dataset_root')
                         ,help='Report statistics of dataset:# of snippet in each video;# of video in each cat')
     args = parser.parse_args()
     if args.sel:
@@ -341,9 +346,13 @@ if __name__=='__main__':
                                       purpose=config.EVALUATION['purpose_name'],
                                       threshds_lst=config.EVALUATION['iou_thresholds'])
         evaluator.driver()
-    if args.report_dataset_stat:
-        reportor = Dataset_Management_ILSVRC(args.report_dataset_stat[0],
-                                             args.report_dataset_stat[1])
+    if args.dataset_management:
+        reportor = Dataset_Management_ILSVRC(args.dataset_management[0],
+                                             args.dataset_management[1])
         #reportor.report_statistics()
-        reportor.generate_snippets_of_categories(['6','7'])
+        #reportor.generate_snippets_of_categories(['6','7'])
+        reportor.generate_snippets_file_of_single_category('6',5)
+        reportor.generate_snippets_file_of_single_category('7',5)
+        reportor.generate_snippets_file_of_single_category('9',5)
+
 
