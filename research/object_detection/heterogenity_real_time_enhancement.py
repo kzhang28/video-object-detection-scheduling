@@ -29,7 +29,7 @@ logger=logging.getLogger(__name__)
 if config.LOGGING['handler']=='file':
   log_file_dir= os.path.dirname(config.LOGGING['log_file_path'])
   Path(log_file_dir).mkdir(parents=True,exist_ok=True)
-  handler = logging.FileHandler(config.LOGGING['log_file_path'])
+  handler = logging.FileHandler(config.LOGGING['log_file_path'],mode='w')
 elif config.LOGGING['handler']=='stream':
   handler=logging.StreamHandler()
 else:
@@ -189,5 +189,10 @@ def inference_main():
   logger.info('Done of detection task!')
 
 if __name__=="__main__":
+    # output config.py content to log file
+    with open('./kuo_experiment/config.py') as f:
+      config_content = f.read()
+    logger.info(config_content)
+    # begin object detection task
     inference_main()
 
