@@ -41,7 +41,7 @@ logger=logging.getLogger(__name__)
 if config.LOGGING['handler']=='file':
   log_file_dir= os.path.dirname(config.LOGGING['log_file_path'])
   Path(log_file_dir).mkdir(parents=True,exist_ok=True)
-  handler = logging.FileHandler(config.LOGGING['log_file_path'],mode='w')
+  handler = logging.FileHandler(config.LOGGING['log_file_path'],mode=config.LOGGING['write_or_append'])
 elif config.LOGGING['handler']=='stream':
   handler=logging.StreamHandler()
 else:
