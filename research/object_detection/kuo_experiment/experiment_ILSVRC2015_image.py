@@ -12,12 +12,17 @@ import ILSVRC_coco_map
 import copy
 import importlib
 from pathlib import Path
+from PIL import Image
+from itertools import cycle
+import matplotlib.pyplot as plt
+from plot import Plot
 
 count_gt_obj_not_in_coco_ILSVRC_intersection=0
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-sel',nargs=3,metavar=('Category_file_path','category_pointer_file_dir',
                         'train_set_dir'),help="To select subset from training set")
+# used only with -sel option
 parser.add_argument('-output_sel_snippet_file',nargs=1,default='selected_snippets.txt',
                     help='File name for store all selected snippets')
 parser.add_argument('-single_acc',nargs=2,metavar=('res_path','gt_path'),
@@ -87,7 +92,8 @@ class ILSVRC_Evaluation:
                  res_dir_name,
                  evaluation_res_dir,
                  threshds_lst,
-                 min_detection_score):
+                 min_detection_score,
+                 write_or_append):
         self.Metric_Tuple = namedtuple('metric', ['snippet_path','accuracies'] )
         self.global_FP= 0
         self.global_TP= 0
@@ -106,6 +112,7 @@ class ILSVRC_Evaluation:
         self.dataset_annotation_root_path = os.path.join(self.dataset_root_path,'Annotations')
         self.dataset_result_root_path = os.path.join(self.dataset_root_path,self.res_dir_name,self.purpose,
                                                      self.model_name,'Data')
+        self.write_or_append =write_or_append
         # variables for various statistics
         self.metric=[] # [ Metric_Tuple ], namely [(snippet_path_id,[])]
         # {category:
@@ -257,6 +264,7 @@ class ILSVRC_Evaluation:
                 accuracies.append(TP/(TP+FP))
             return np.average(accuracies)
     def compute_accuracy_all(self):
+        # can only be called once on instance initialization
         with open(self.snippets_path) as fd:
             for line in fd:
                 snippet_path,category_key = line.strip().split()
@@ -286,6 +294,7 @@ class ILSVRC_Evaluation:
         print('[INFO:] Count of objects for which gt should not be given:{}'.format(
             count_gt_obj_not_in_coco_ILSVRC_intersection))
     def compute_speed(self):
+        # can only be called once on instance initialization
         def _read_process_time(pred_path):
             with open(pred_path) as f:
                 pred_out_dict = json.load(f)
@@ -351,8 +360,8 @@ class ILSVRC_Evaluation:
         # Data structure holding the result
         per_video_dict = OrderedDict()#{video: average_acc of all snippets}
         per_snippet_dict =OrderedDict() #{video: [acc_snippet_1,acc_snippet_2,...]}
-        fd_per_video = open(per_video_res_file_path,'w')
-        fd_per_snippet = open(per_snippet_res_file_path,'w')
+        fd_per_video = open(per_video_res_file_path,self.write_or_append)
+        fd_per_snippet = open(per_snippet_res_file_path,self.write_or_append)
         for cat,vd_snippet_dict in self.cat_video_accuracs_dict.items():
             for vd,snippet_dic in vd_snippet_dict.items():
                 snippet_average_acc = [] # [acc of snippets of a specific video]
@@ -375,12 +384,13 @@ class ILSVRC_Evaluation:
                     '{} [{}] {}\n'.format(cat,vd,','.join(map(str,snippet_average_acc))))
         fd_per_video.close()
         fd_per_snippet.close()
-        fp_per_video_js=open(per_video_res_file_path_json,'w')
-        fp_per_snippet_js = open(per_snippet_res_file_path_json,'w')
-        json.dump(per_video_dict,fp_per_video_js)
-        json.dump(per_snippet_dict,fp_per_snippet_js)
-        fp_per_video_js.close()
-        fp_per_snippet_js.close()
+
+        # fp_per_video_js=open(per_video_res_file_path_json,'w')
+        # fp_per_snippet_js = open(per_snippet_res_file_path_json,'w')
+        # json.dump(per_video_dict,fp_per_video_js)
+        # json.dump(per_snippet_dict,fp_per_snippet_js)
+        # fp_per_video_js.close()
+        # fp_per_snippet_js.close()
     def compute_per_video_per_snippet_speed_and_count(self):
         '''write to file: [Cat] [VideoId] [speed_snippet_1,speed_snippet_2,...] [Ave speed]'''
         file_name_per_snippet_speed = 'speed_per_snippet.txt'
@@ -390,7 +400,7 @@ class ILSVRC_Evaluation:
         Path(path_base).mkdir(parents=True, exist_ok=True)
         per_snippet_speed_path = os.path.join(path_base,file_name_per_snippet_speed)
         #per_snippet_count_path =os.path.join(path_base,file_name_per_snippet_count)
-        fd_speed = open(per_snippet_speed_path,'w')
+        fd_speed = open(per_snippet_speed_path,self.write_or_append)
         #fd_count = open(per_snippet_count_path,'w')
         #fd_speed.write('[Cat] [VideoId] [speed_snippet_1,speed_snippet_2,...] [Ave speed]\n')
         for cat,vd_snippet_dict in self.cat_video_speeds_dict.items():
@@ -406,6 +416,28 @@ class ILSVRC_Evaluation:
                 fd_speed.write('{} {} [{}] ({})\n'.format(
                     cat,vd,','.join(map(str,snippet_average_speed)),per_vd_ave))
         fd_speed.close()
+    def draw_per_frame_acc(self):
+        model_name =self.model_name
+        save_dir = os.path.join(self.dataset_root_path,'temp_per_frame_acc')
+        Path(save_dir).mkdir(parents=True,exist_ok=True)
+        #   [ {videoID:
+        #       {snippet:
+        #           [accuracy_single_frame]
+        #       }
+        #      }
+        #   ]
+        list_vds = self.cat_video_accuracs_dict.values()
+        for item in list_vds:
+            for vd, snippet_dict in item.items():
+                frames_acc_list =[]
+                for i in snippet_dict.values():
+                    frames_acc_list=frames_acc_list+i
+                frames_acc_list=[i for i in frames_acc_list if i!=-1]
+                save_file_name = os.path.join(save_dir,model_name+'_'+vd.replace('/','_'))
+                Plot.draw_per_frame_accuracy_for_single_video(vd,model_name,frames_acc_list,
+                                                              save_file_name)
+        plt.show()
+
 
 class Dataset_Management_ILSVRC:
     def __init__(self,
@@ -507,6 +539,179 @@ class Dataset_Management_ILSVRC:
                 sum+= len(os.listdir(path))
         print('Total Number of frames: {}'.format(sum))
         return sum
+class Sampled_Infer:
+    # common used method, so make it static; maybe get changed flexibly
+    @staticmethod
+    def find_best_matched_gt_bb(gt_bboxes, pred_bboxes,min_threshd):
+        '''
+            find best matched gt bbox for each pred bbox.
+            :param gt_bboxes:
+            :param pred_bboxes:
+            :param min_threshd:
+            :return: return the index of matching bbox or None if no matching is found
+        '''
+
+        def _filter_list(lst, threshd):
+            truncate_idx = None
+            for i, idx_iou_tuple in enumerate(lst):
+                if idx_iou_tuple[1] < threshd:
+                    truncate_idx = i
+                    break
+            if truncate_idx is not None:
+                del lst[truncate_idx:]
+
+        already_matched = [False] * len(gt_bboxes)
+        result = []  # size of result is len(pred_bbox),each entry is the index of matching gtbb or None
+        matrix_ious = [[(gt_idx, Accuracy_Measurement.compute_IOU(box, gt_box))
+                        for gt_idx, gt_box in enumerate(gt_bboxes)]
+                       for box in pred_bboxes]
+
+        # sort in place
+        matrix_ious = [sorted(per_pred_ious, key=lambda k: k[1], reverse=True)
+                       for per_pred_ious in matrix_ious]
+        # remove tuples whoes iou is less than threshd
+        for item in matrix_ious:
+            _filter_list(item, min_threshd)
+        # find the best matched gt bbox
+        for ious in matrix_ious:
+            # ious is empty or can not find a match ---> None
+            find = False
+            for iou in ious:
+                if not already_matched[iou[0]]:
+                    result.append(iou[0])
+                    already_matched[iou[0]] = True
+                    find = True
+                    break
+            if not find:
+                result.append(None)
+        return result
+    @staticmethod
+    def compute_acc_using_prev_result(
+                                      last_detect_res, # coco integer ID
+                                      IOU,
+                                      min_threshd,
+                                      gt_dict):        # classID should be converted to coco integer ID
+        # filter out all detection results whose detection scores are less than min_threshd
+        idx_all_kept_detection = [ idx for idx, i in enumerate(last_detect_res['detection_scores'])
+                                   if i>min_threshd]
+        num_detection_last = len(idx_all_kept_detection)
+        last_bb=[last_detect_res['detection_boxes'][idx] for idx in idx_all_kept_detection]
+        last_class=[last_detect_res['detection_class'][idx] for idx in idx_all_kept_detection]
+        # filter out all gt objects the category of which is out of COCO and ILSVRC intersection
+        gt_bb=[]
+        gt_cls=[]
+        for idx,i in enumerate(gt_dict['detection_class']):
+            if i in ILSVRC_coco_map.ILSVRC_TO_COCO.values():
+                gt_bb.append(gt_dict['detection_boxes'][idx])
+                gt_cls.append(gt_dict['detection_classes'][idx])
+        num_detection_gt=len(gt_bb)
+        if not last_class and not gt_cls:
+            return -1
+        if not last_class and gt_cls:
+            return -2
+        if last_class and not gt_cls:
+            return 0
+        matching_res = Sampled_Infer.find_best_matched_gt_bb(gt_bb,last_bb,IOU)
+        FP=0
+        TP=0
+        for idx, matched_idx in enumerate(matching_res):
+            if matched_idx is None:
+                FP+=1
+                continue
+            if last_class[idx] == gt_cls[matched_idx]:
+                TP+=1
+            else:
+                FP+=1
+        return TP/(TP+FP) # denominator will never be zero
+class RL_Guided_Sample:
+    def __init__(self):
+        pass
+    class Action:
+        INFER =0
+        SKIP = 1
+    @staticmethod
+    def similarity_frames(f1,f2):
+        pass
+    class state:
+        def __init__(self,
+                     all_frames_generator,
+                     compare_difference_range):
+            self.all_frames_generator = all_frames_generator # set only one time for each instance
+            self.backcheck_range=compare_difference_range
+            self.cycle_frames = cycle(self.all_frames_generator)
+            #=================================================
+            self.current_frame =next(self.cycle_frames)
+            self.next_frame=next(self.cycle_frames)
+            self.last_infered_image=None
+            self.distance_to_last_infer=0 # in [0,1,2,3,4,5]
+            # the difference between current frame and the i_frame_before frame
+            self.similarity_consecutive_frames = [-1 for i in range(compare_difference_range)]
+            self.previous_frames =[None for i in range(compare_difference_range)]
+            self.video_start = 1 # 1 yes, 0 no
+        def reset(self):
+            self.distance_to_last_infer=0
+            self.similarity_consecutive_frames=[-1 for i in range(self.backcheck_range)]
+            self.previous_frames =[None for i in range(self.backcheck_range)]
+            self.video_start =1
+            self.cycle_frames=cycle(self.all_frames_generator)
+            self.current_frame=next(self.cycle_frames)
+            self.next_frame=next(self.cycle_frames)
+            self.last_infered_image=None
+        def is_first_frame(self,curr_frame,last_frame):
+            pass
+        def set_video_starting(self):
+            pass
+        def update_state(self,action):
+
+            if action==RL_Guided_Sample.Action.INFER:
+                self.last_infered_image=self.next_frame
+                # if do the inference, next state current frame is inferred, so the distance is zero
+                self.distance_to_last_infer=0
+            else:
+                self.distance_to_last_infer+=1
+            self.previous_frames =[self.current_frame]+self.previous_frames[1:]
+            self.current_frame = self.next_frame
+            self.next_frame = next(self.cycle_frames)
+            self.similarity_consecutive_frames=[RL_Guided_Sample.similarity_frames(self.current_frame,i)
+                                                for i in self.previous_frames]
+            if self.is_first_frame(self.current_frame,self.previous_frames[0]):
+                self.set_video_starting()
+
+    @staticmethod
+    def generator_next_frame(snippets_file):
+        with open(snippets_file) as fd:
+            for line in fd:
+                snippet_path = line.split()[0]
+                list_frames_paths = [os.path.join(snippet_path, i)
+                                     for i in sorted(os.listdir(snippet_path))]
+                for frame_path in list_frames_paths:
+                    yield frame_path
+    class Env:
+        def __init__(self,snippets_file):
+            self.state = RL_Guided_Sample.state()
+            self.all_frames =RL_Guided_Sample.generator_next_frame(snippets_file)
+        def reset(self):
+            pass
+        def step(self,action):
+            pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 if __name__=='__main__':
 
@@ -528,15 +733,17 @@ if __name__=='__main__':
                                       res_dir_name=config.EVALUATION['res_dir_name'],
                                       evaluation_res_dir=config.EVALUATION['evaluation_res_dir'],
                                       threshds_lst=config.EVALUATION['iou_thresholds'],
-                                      min_detection_score=config.EVALUATION['min_detection_score'])
-        #evaluator.compute_acc_per_video_per_snippet()
-        evaluator.compute_per_video_per_snippet_speed_and_count()
+                                      min_detection_score=config.EVALUATION['min_detection_score'],
+                                      write_or_append=config.EVALUATION['write_or_append'])
+        evaluator.compute_acc_per_video_per_snippet()
+        #evaluator.compute_per_video_per_snippet_speed_and_count()
+        #evaluator.draw_per_frame_acc()
     if args.dataset_management:
         reportor = Dataset_Management_ILSVRC(args.dataset_management[0],
                                              args.dataset_management[1])
         #reportor.report_statistics()
         #reportor.generate_snippets_of_categories(['6','7'])
-        reportor.generate_snippets_file_of_single_category('6',5)
-        reportor.generate_snippets_file_of_single_category('7',5)
-        reportor.generate_snippets_file_of_single_category('9',5)
+        reportor.generate_snippets_file_of_single_category('4',3)
+        reportor.generate_snippets_file_of_single_category('5',3)
+        reportor.generate_snippets_file_of_single_category('19',3)
         #reportor.count_num_frames('categories_6_7_9_numVideo_5.txt')
