@@ -68,7 +68,7 @@ def record_resource_usage_gpu():
     gpu_stat = subprocess.run(['nvidia-smi','--query-gpu=utilization.gpu', '--format=csv'],
                               stdout=subprocess.PIPE).stdout.decode('utf-8')
     lines=gpu_stat.split(os.linesep)
-    gpu_percent = float(lines[1][0:3])
+    gpu_percent = float(lines[1][:-1])
     logger.info('{}'.format(gpu_percent))
 
 
