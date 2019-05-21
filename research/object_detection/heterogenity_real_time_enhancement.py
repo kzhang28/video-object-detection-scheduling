@@ -125,7 +125,8 @@ def run_sess(image,sess,tensor_dict):
                          feed_dict={image_tensor: np.expand_dims(image, 0)})
   ttt2 = time.perf_counter()
   tt2=time.process_time()
-  logger.info('Response Time:{:8.3f}|Process Time:{:8.3f}'.format(
+  if config.WHETHER_RECORD_RESOURCE_USAGE:
+    logger.info('Response Time:{:8.3f}|Process Time:{:8.3f}'.format(
     ttt2-ttt1,tt2-tt1))
   # all outputs are float32 numpy arrays, so convert types as appropriate
   output_dict['num_detections'] = int(output_dict['num_detections'][0])
