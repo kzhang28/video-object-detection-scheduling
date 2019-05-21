@@ -25,6 +25,7 @@ from kuo_experiment.accuracy_measurement import Accuracy_Measurement
 import importlib
 import psutil
 import argparse
+import subprocess
 #====================================================================================================
 # Command line args parse
 parser = argparse.ArgumentParser()
@@ -59,10 +60,17 @@ category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABE
 pattern = re.compile('^/')
 # remove possible leading slash
 rm_leading_slash=lambda s:pattern.sub('',s)
-def record_resource_usage():
+def record_resource_usage_cpu():
   cpu_percent=PS_Process.cpu_percent() # float
   num_threads=PS_Process.num_threads()
   logger.info('CPU_Percent:{}|Num_Threads:{}'.format(cpu_percent,num_threads))
+def record_resource_usage_gpu():
+    gpu_stat = subprocess.run(['nvidia-smi','--query-gpu=utilization.gpu', '--format=csv'],
+                              stdout=subprocess.PIPE).stdout.decode('utf-8')
+    lines=gpu_stat.split(os.linesep)
+    gpu_percent = float(lines[1][0:3])
+    logger.info('{}'.format(gpu_percent))
+
 
 def download_model(model_name):
   DOWNLOAD_BASE=config.DOWNLOAD_BASE
@@ -192,7 +200,10 @@ def inference_main():
         # filter out low score detection
         Accuracy_Measurement.get_final_detection_result(output_dict,
                                                         min_score_threshold=config.MIN_THRESHOLD_TO_KEEP)
-        record_resource_usage()
+        if config.WHETHER_RECORD_RESOURCE_USAGE:
+          record_resource_usage_cpu()
+        if config.WHETHER_RECORD_GPU:
+          record_resource_usage_gpu()
         if config.WHETHER_DUMP_DETECTION_RESULT:
           image_name = os.path.basename(frame_path)
           with open(os.path.join(res_snippet_path,
