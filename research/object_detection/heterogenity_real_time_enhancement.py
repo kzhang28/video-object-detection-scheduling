@@ -65,11 +65,11 @@ def record_resource_usage_cpu():
   num_threads=PS_Process.num_threads()
   logger.info('CPU_Percent:{}|Num_Threads:{}'.format(cpu_percent,num_threads))
 def record_resource_usage_gpu():
-    gpu_stat = subprocess.run(['nvidia-smi','--query-gpu=utilization.gpu', '--format=csv'],
+  gpu_stat = subprocess.run(['nvidia-smi','--query-gpu=utilization.gpu', '--format=csv'],
                               stdout=subprocess.PIPE).stdout.decode('utf-8')
-    lines=gpu_stat.split(os.linesep)
-    gpu_percent = float(lines[1][:-1])
-    logger.info('{}'.format(gpu_percent))
+  lines=gpu_stat.split(os.linesep)
+  gpu_percent = float(lines[1][:-1])
+  logger.info('{}'.format(gpu_percent))
 
 
 def download_model(model_name):
@@ -125,9 +125,9 @@ def run_sess(image,sess,tensor_dict):
                          feed_dict={image_tensor: np.expand_dims(image, 0)})
   ttt2 = time.perf_counter()
   tt2=time.process_time()
-  if config.WHETHER_RECORD_RESOURCE_USAGE:
-    logger.info('Response Time:{:8.3f}|Process Time:{:8.3f}'.format(
-    ttt2-ttt1,tt2-tt1))
+  # if config.WHETHER_RECORD_RESOURCE_USAGE:
+  #   logger.info('Response Time:{:8.3f}|Process Time:{:8.3f}'.format(
+  #   ttt2-ttt1,tt2-tt1))
   # all outputs are float32 numpy arrays, so convert types as appropriate
   output_dict['num_detections'] = int(output_dict['num_detections'][0])
   output_dict['detection_classes'] = output_dict[
