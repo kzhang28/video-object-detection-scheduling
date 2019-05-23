@@ -63,13 +63,15 @@ rm_leading_slash=lambda s:pattern.sub('',s)
 def record_resource_usage_cpu():
   cpu_percent=PS_Process.cpu_percent() # float
   num_threads=PS_Process.num_threads()
-  logger.info('CPU_Percent:{}|Num_Threads:{}'.format(cpu_percent,num_threads))
+  #logger.info('CPU_Percent:{}|Num_Threads:{}'.format(cpu_percent,num_threads))
+  return cpu_percent
 def record_resource_usage_gpu():
   gpu_stat = subprocess.run(['nvidia-smi','--query-gpu=utilization.gpu', '--format=csv'],
                               stdout=subprocess.PIPE).stdout.decode('utf-8')
   lines=gpu_stat.split(os.linesep)
   gpu_percent = float(lines[1][:-1])
-  logger.info('{}'.format(gpu_percent))
+  #logger.info('{}'.format(gpu_percent))
+  return gpu_percent
 
 
 def download_model(model_name):
@@ -202,9 +204,11 @@ def inference_main():
         Accuracy_Measurement.get_final_detection_result(output_dict,
                                                         min_score_threshold=config.MIN_THRESHOLD_TO_KEEP)
         if config.WHETHER_RECORD_RESOURCE_USAGE:
-          record_resource_usage_cpu()
+          cpu=record_resource_usage_cpu()
+          output_dict['cpu']='{}'.format(cpu)
         if config.WHETHER_RECORD_GPU:
-          record_resource_usage_gpu()
+          gpu=record_resource_usage_gpu()
+          output_dict['gpu']='{}'.format(gpu)
         if config.WHETHER_DUMP_DETECTION_RESULT:
           image_name = os.path.basename(frame_path)
           with open(os.path.join(res_snippet_path,
